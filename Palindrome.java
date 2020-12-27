@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class Palindrome {
 
     static boolean isPalindrome(int x) {
         if (x < 0) {
