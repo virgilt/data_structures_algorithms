@@ -1,6 +1,6 @@
+class Main {
 
-class Solution {
-    public boolean isPalindrome(int x) {
+    static boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
         }
@@ -22,5 +22,9 @@ class Solution {
             mask /= 100;
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(isPalindrome(93239));
     }
 }
